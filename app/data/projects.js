@@ -1,42 +1,19 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Rayvolve',
+    subtitle: 'Developed by our team at AZMed, the first CE certified Medical AI device in France',
+    link: 'https://aws.amazon.com/fr/solutions/case-studies/azmed/',
+    image: '/images/projects/rayvolve.png',
+    date: '2019-11-20',
+    desc: 'Rayvolve is a computer-aided diagnosis tool designed by radiologists for radiologists to optimize their workflow without changing their habits.',
   }, {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
+    title: 'DigitRecogML',
+    subtitle: 'Handwritten digits recognition using MNIST dataset, using Sequential Pattern Mining, Metric Learning and KNN',
+    link: 'https://github.com/ajoseph12/MLDM_Project',
+    image: '/images/projects/digitrecog.png',
+    date: '2018-12-20',
+    desc: 'Implementation and experimentation of machine learning and data mining approaches for digit recognition. Sequence mining algorithms were used for mining approaches.',
   },
 ];
 

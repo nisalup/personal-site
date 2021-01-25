@@ -4,8 +4,7 @@ import { Helmet } from 'react-helmet';
 
 import Main from '../layouts/Main';
 
-import Personal from '../components/Stats/Personal';
-import Site from '../components/Stats/Site';
+import Photos from '../components/Stats/Personal';
 
 const Stats = () => (
   <Main>
@@ -13,11 +12,10 @@ const Stats = () => (
     <article className="post" id="stats">
       <header>
         <div className="title">
-          <h2><Link to="/stats">Stats</Link></h2>
+          <h2><Link to="/stats">My Travel Photos</Link></h2>
         </div>
       </header>
-      <Personal />
-      <Site />
+      <Photos />
     </article>
   </Main>
 );

@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "2.1.0",
-  "homepage": "https://mldangelo.github.io/personal-site/",
+  "homepage": "https://nisal.fr",
   "scripts": {
     "build": "rimraf ./build && webpack --config ./webpack/webpack.production.config.babel.js --progress --profile --colors",
     "postbuild": "react-snap",
@@ -30,6 +30,7 @@
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/react-fontawesome": "0.1.11",
+    "@material-ui/core": "^4.11.0",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "css-loader": "^4.2.2",
@@ -51,8 +52,10 @@
     "react-burger-menu": "^2.7.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
+    "react-github-cards": "^1.1.1",
     "react-helmet": "^6.1.0",
     "react-markdown": "^4.3.1",
+    "react-photo-gallery": "^8.0.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "rimraf": "^3.0.2",

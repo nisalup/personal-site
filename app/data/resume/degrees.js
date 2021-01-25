@@ -1,14 +1,14 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Université Jean Monnet - Saint Etienne',
+    degree: 'M.S. Machine Learning and Data Mining',
+    link: 'https://univ-saint-etienne.fr',
+    year: 2019,
   }, {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'University of Colombo School of Computing',
+    degree: 'B.S. Information Communication Technology',
+    link: 'https://ucsc.cmb.ac.lk',
+    year: 2014,
   },
 ];
 

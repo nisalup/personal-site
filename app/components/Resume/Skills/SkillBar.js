@@ -9,18 +9,18 @@ const SkillBar = ({ data, categories }) => {
     background: categories
       .filter((cat) => category.includes(cat.name))
       .map((cat) => cat.color)[0],
+    width: '100%',
   };
 
   const barStyle = {
     ...titleStyle,
-    width: `${String(Math.min(100, Math.max((competency / 5.0) * 100.0, 0)))}%`,
+    width: '100%',
   };
 
   return (
     <div className="skillbar clearfix">
       <div className="skillbar-title" style={titleStyle}><span>{title}</span></div>
       <div className="skillbar-bar" style={barStyle} />
-      <div className="skill-bar-percent">{competency} / 5</div>
     </div>
   );
 };
@@ -28,7 +28,7 @@ const SkillBar = ({ data, categories }) => {
 SkillBar.propTypes = {
   data: PropTypes.shape({
     category: PropTypes.arrayOf(PropTypes.string).isRequired,
-    competency: PropTypes.number.isRequired,
+    competency: 5,
     title: PropTypes.string.isRequired,
   }).isRequired,
   categories: PropTypes.arrayOf(PropTypes.shape({

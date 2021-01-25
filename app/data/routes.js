@@ -1,7 +1,7 @@
 const data = [
   {
     path: '/',
-    label: 'Michael D\'Angelo',
+    label: 'Nisalup',
     index: true,
   },
   {
@@ -14,15 +14,15 @@ const data = [
   },
   {
     path: '/projects',
-    label: 'Projects',
-  },
-  {
-    path: '/stats',
-    label: 'Stats',
+    label: 'Projects & Articles',
   },
   {
     path: '/contact',
     label: 'Contact',
+  },
+  {
+    path: '/travel-and-photos',
+    label: 'Travel & Photos',
   },
 ];
 

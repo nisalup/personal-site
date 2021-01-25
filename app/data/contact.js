@@ -5,42 +5,38 @@ import faLinkedinIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
 import faAngellist from '@fortawesome/fontawesome-free-brands/faAngellist';
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
-
+import { faStackOverflow } from '@fortawesome/fontawesome-free-brands';
+import { faPaperPlane } from '@fortawesome/fontawesome-free-regular';
 const data = [
   {
-    link: 'https://github.com/mldangelo',
+    link: 'https://github.com/nisalup',
     label: 'Github',
     icon: faGithub,
+    color: "#000000",
   },
   {
-    link: 'https://facebook.com/d',
-    label: 'Facebook',
-    icon: faFacebook,
+    link: 'https://stackoverflow.com/users/4858605/toing-toing',
+    label: 'StackOverflow',
+    icon: faStackOverflow,
+    color: "#F48024",
   },
   {
-    link: 'https://www.instagram.com/dangelosaurus/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/michaelldangelo',
+    link: 'https://www.linkedin.com/in/nisalup/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
+    color: "#007bb6",
   },
   {
-    link: 'https://angel.co/michael-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://twitter.com/dangelosaurus',
+    link: 'https://twitter.com/the_shopboy',
     label: 'Twitter',
     icon: faTwitter,
+    color: "#00aced",
   },
   {
-    link: 'mailto:michael.l.dangelo@gmail.com',
+    link: 'mailto:mail@nisal.fr',
     label: 'Email',
-    icon: faEnvelope,
+    icon: faPaperPlane,
+    color: "#08851b",
   },
 ];
 
